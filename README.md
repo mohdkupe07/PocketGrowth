@@ -1,110 +1,226 @@
-﻿# PocketGrowth
+<div align="center">
 
-💰 PocketGrowth
+# 🚀 PocketGrowth
 
-A personal finance web app built for students and young professionals to help them build better money habits — save early, invest early, and manage their spending responsibly.
+### 💰 Build Better Money Habits · Save Smarter · Grow Faster
 
-PocketGrowth allows users to:
-✔ Add income/allowance
-✔ Split income into available balance + locked savings
-✔ Send & receive money (with savings prompts)
-✔ Unlock savings with a reason
-✔ Invest using locked savings
-✔ Track full financial history in one place
-✔ Manage profile, savings %, password, and account deletion
+[![React](https://img.shields.io/badge/Frontend-React.js-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Framework-Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/Database-MongoDB_Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/atlas)
+[![Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Render](https://img.shields.io/badge/Hosted-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
 
-This is a full-stack application built using the MERN stack and deployed on Vercel + Render + MongoDB Atlas.
+**PocketGrowth** is a full-stack personal finance management application designed to help students and young professionals develop responsible money habits. The platform empowers users to manage income, control spending, build disciplined savings, track financial activity, and explore investment growth — all through a simple, intuitive interface.
 
-🚀 Tech Stack
+</div>
 
-Frontend: React (Vite), Recharts, React Router
-Backend: Node.js, Express.js
-Database: MongoDB Atlas
-Hosting:
+---
 
-Frontend → Vercel
+## 🌟 Why PocketGrowth?
 
-Backend → Render
+> Managing money at an early stage can be challenging. PocketGrowth is built to make it simple.
 
-Database → MongoDB Atlas
+<table>
+<tr>
+<td width="20%" align="center">💵<br><b>Spending Clarity</b></td>
+<td width="20%" align="center">🔒<br><b>Saving Discipline</b></td>
+<td width="20%" align="center">📊<br><b>Progress Tracking</b></td>
+<td width="20%" align="center">📈<br><b>Investment Growth</b></td>
+<td width="20%" align="center">🧠<br><b>Smarter Decisions</b></td>
+</tr>
+<tr>
+<td align="center">Understand exactly where your money goes</td>
+<td align="center">Build consistent, automatic saving habits</td>
+<td align="center">Track every financial move in real time</td>
+<td align="center">Learn investment discipline hands-on</td>
+<td align="center">Make informed, confident money choices</td>
+</tr>
+</table>
 
-🧩 Key Features
-💵 Wallet Management
+---
 
-Add allowance
+## ✨ Key Features
 
-Deposit directly into locked savings
+### 💰 Smart Wallet Management
+Manage your money efficiently with a wallet system built for discipline:
+- ➕ Add income or allowance
+- ⚖️ Separate available balance from locked savings
+- 🔐 Automatic saving discipline enforcement
+- 🗝️ Unlock savings with a required reason
+- ⚡ Real-time balance updates
 
-Unlock savings with a reason
+### 💸 Send & Receive Money
+A seamless, transparent transaction experience:
+- 🚀 Send money instantly
+- 📥 Receive and manage transaction requests
+- 🎯 Let receivers choose their own saving options
+- 🔄 Auto-update transaction records after confirmation
+- 💡 Encourage saving behavior during every transfer
 
-Auto-refreshing balance
+### 📜 Complete Financial History
+A full, transparent log of every financial activity:
+- 💵 Income additions
+- 🔁 Money transfers
+- 📬 Received payments
+- 🏦 Savings actions
+- 🔓 Unlock events with reasons
+- 📈 Investments
+- 📊 Growth updates
 
-💸 Send & Receive Money
+### 📈 Investment Tracking System
+Explore financial growth using locked savings:
 
-Sender sends instantly
+| Category | Icon |
+|---|:---:|
+| Stocks | 📊 |
+| Crypto | 🪙 |
+| SIP | 📈 |
+| Mutual Funds | 🏦 |
+| Fixed Deposits | 💳 |
 
-Receiver gets a pending request
+Progress is visualized through **interactive charts** and real-time growth tracking powered by Recharts.
 
-Receiver can:
+### 👤 Profile & Account Management
+Full control over your personal experience:
+- ✏️ Update profile information
+- 🔑 Change password securely
+- ⚙️ Customize default savings percentage
+- 🎛️ Manage account preferences
+- 🗑️ Delete account while preserving transaction history
 
-Take full amount
+---
 
-Save 10%
+## 🛠 Tech Stack
 
-Enter custom savings
+<table>
+<tr>
+<td valign="top" width="33%">
 
-Transaction history updates only after receiver accepts
+**🎨 Frontend**
+- React.js
+- Vite
+- React Router
+- Recharts
 
-📜 Unified Transaction History
+</td>
+<td valign="top" width="33%">
 
-Shows all activities clearly:
+**⚙️ Backend**
+- Node.js
+- Express.js
 
-Sent money
+</td>
+<td valign="top" width="33%">
 
-Received money
+**🗄️ Database**
+- MongoDB Atlas
 
-Allowance added
+</td>
+</tr>
+</table>
 
-Locked savings added
+### ☁️ Deployment
 
-Unlock events (with reason)
+| Service | Platform |
+|:---|:---:|
+| 🎨 Frontend | **Vercel** |
+| ⚙️ Backend | **Render** |
+| 🗄️ Database | **MongoDB Atlas** |
 
-Investments
+---
 
-Growth updates
+## 🏗 Project Structure
 
-📈 Investments
+```text
+PocketGrowth
+│
+├── frontend
+│   ├── React + Vite Application
+│   └── User Interface
+│
+├── backend
+│   ├── Node.js API
+│   └── Express Server
+│
+└── Database
+    └── MongoDB Atlas
+```
 
-Invest only from locked savings
+---
 
-Supports: Stocks, Crypto, SIP, Mutual Funds, FD
+## 🚀 Getting Started
 
-Auto-growth
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/mohdkupe07/PocketPilot.git
+```
 
-Charts for growth + investment breakdown
+### 2️⃣ Install Dependencies
 
-👤 Profile Management
+**Frontend**
+```bash
+cd frontend
+npm install
+```
 
-Edit name & email
+**Backend**
+```bash
+cd backend
+npm install
+```
 
-Change password
+### 3️⃣ Run the Application
 
-Adjust default savings %
+**Frontend**
+```bash
+npm run dev
+```
 
-Delete account (transactions preserved)
+**Backend**
+```bash
+npm start
+```
 
-👨‍💻 Team Members
+---
 
-This project was built collaboratively by:
+## 🌐 Live Demo
 
-Anu Varshini
+<div align="center">
 
-Joel John Jobinse
+[![Frontend](https://img.shields.io/badge/🌍_Frontend-Live_App-6C5CE7?style=for-the-badge)](https://pocketgrowth.vercel.app/)
+[![Backend](https://img.shields.io/badge/🔗_Backend-API-00B894?style=for-the-badge)](https://pocketgrowth.onrender.com)
 
-Shehan Shajahan
+</div>
 
-🌐 Live Demo
+---
 
-Frontend: https://pocketgrowth.vercel.app/
-Backend API: https://pocketgrowth.onrender.com
+## 🔮 Future Improvements
 
+- 🤖 AI-based spending insights
+- 🎯 Personalized saving recommendations
+- 📊 Advanced financial analytics
+- 🔮 Expense prediction
+- 📈 Better investment visualization
+- 📱 Mobile application support
+
+---
+
+## 👨‍💻 Developer
+
+<div align="center">
+
+### **Mohammed Kupe**
+*Computer Engineering Student | Data Science & AI Enthusiast*
+
+[![GitHub](https://img.shields.io/badge/GitHub-mohdkupe07-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohdkupe07)
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, consider giving it a star!
+
+</div>
